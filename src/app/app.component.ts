@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'twoway';
+  name!: string;
+  em!: string;
+  pass!:string;
+  show(){
+    alert("successfully submitted")
+  }
 }
